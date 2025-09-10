@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import './App.css';
 import {
   useConfig,
   useEditorPanelConfig,
@@ -22,7 +21,7 @@ function App() {
     triggerOnLoadAction();
   }, [triggerOnLoadAction]);
 
-  return <div style={{ backgroundColor: 'transparent' }}></div>;
+  return null;
 }
 
 export default App;
